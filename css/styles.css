@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Rubik", sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.blue {
+    background-color: rgb(63, 114, 236);
+    height: 35%;
+    border-radius: 10px 10px 0 0;
+}
+
+.container img {
+    width: 225px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.white {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.white h3 {
+    margin-top: 100px;
+    margin-bottom: 5px;
+}
+
+.icons-container {
+    margin: 15px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.icons-container a {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.icons-container .fa-facebook {
+    color: rgb(16, 107, 255);
+}
+
+.icons-container .fa-youtube {
+    color: rgb(254, 8, 8);
+}
+
+.button-container {
+    width: 70%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    background-color: rgb(61, 114, 236);
+    width: 30%;
+    border-radius: 25px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: rgb(25, 82, 226);
+}
+
+.reactions-container {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.love {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    padding-right: 10px;
+    border-right: 2px solid rgba(128, 128, 128, 0.3);
+}
+
+.comment {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    border-right: 2px solid rgba(128, 128, 128, 0.3);
+    padding: 0 10px 0 10px;
+}
+
+.share {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    padding-left: 10px;
+}
