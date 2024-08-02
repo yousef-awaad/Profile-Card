@@ -5,3 +5,9 @@ This repository contains a modern profile card built with HTML and CSS. It featu
 Here we have project screenshot :
 
 ![Screenshot 2024-07-24 212449](https://github.com/user-attachments/assets/8d230d28-9118-4a74-a1c7-b53693d1e5f8)
+
+# Links
+
+<div align="center">
+	<h3><a href="https://yousef-awaad.github.io/Profile-Card/">Live Preview</a></h3>
+</div>
